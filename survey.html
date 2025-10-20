@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey - Clash Royale Fan Page</title>
+  </head>
+    <nav>
+      <a href="http://127.0.0.1:5500/index.html">Back to Home</a>
+    </nav>
+  <!--
+    The style tag is used to define CSS styles for an HTML document. It is typically placed within the head section.
+    (i used this to change the background color)
+  -->
+  <body style="background-color: rgb(0, 191, 255);">
+    <h1>Clash Royale</h1>
+    <h2>This is a Clash Royale Survey</h2>
+    <h3>Survey</h3>
+
+
+    <p>Please fill out the survey below</p>
+
+    <!-- TO DO: Review forms from Mr. Hardman's firstwebproject on GitHub -->
+
+    <br />
+    <!--
+      The <form> tag is used to create an HTML form for user input.
+    -->
+    <form>
+      <!--
+        The <fieldset> tag is used to group related elements within a form.
+      -->
+      <!-- TODO: All fieldsets need to have a legend. -->
+      <fieldset>
+        <!--
+          The <label> tag is used to define a label for an input element.
+        -->
+        <label for="card">What is your favourite card</label>
+        <br />
+        <!--
+          The <input> tag is used to create an input field where users can enter data.
+        -->
+
+
+        <input type="text" id="card" name="card"><br>  <br>
+        <!--
+          This label and radio button input lets users choose the zap spell as the best spell to beat swarms.
+        -->
+        <label>Whats the best spell to beat swarms?</label><br>
+        <input type="radio" id="zap" name="card" value="zap" />
+        <label for="zap">Zap</label><br />
+        <input type="radio" id="arrows" name="card" value="arrows" />
+        <label for="arrows">Arrows</label>
+        <br />
+        <input type="radio" id="fireball" name="card" value="fireball" />
+        <label for="fireball">Fireball</label>
+        <br />
+        <input type="radio" id="log" name="card" value="log" />
+        <label for="log">Log</label>
+        <br />
+      <!--
+      The <form> tag is used to create an HTML form for user input.
+      -->
+      <!--
+        The <div> tag is used to define a division or section in an HTML document.
+      -->
+      <fieldset>
+        <legend>How Would You Rate <b>Clash Royale</b>?</legend>
+          <input type="radio" id="Good" name="cropinion" required />
+          <label for="Good">Good</label>
+          <br />
+          <input type="radio" id="Ok" name="cropinion" required />
+          <label for="Ok">Ok</label>
+          <br />
+          <input type="radio" id="Bad" name="cropinion" required />
+          <label for="Bad">Bad</label>
+          <br />
+      </fieldset>
+      <fieldset>
+        <legend>What is the worst card in Clash Royale?</legend>
+        <!-- Put radio buttons and labels in this fieldset. -->
+      </fieldset>
+      <label for="Barbarian Hut">Barbarian Hut:</label>
+      <input type="radio" id="Barbarian Hut" name="Barbarian Hut" required />
+      <br />
+      <label for="Old furnace">Old furnace:</label>
+      <input type="radio" id="Old furnace" name="Barbarian Hut" required />
+      <br />
+      <label for="Pekka">Pekka:</label>
+      <input type="radio" id="Pekka" name="Barbarian Hut" required />
+      <br />
+    </form>
+    <br />
+    <!-- This should also be a fieldset -->
+    <p>Which one is gonna do more damage?</p>
+    <img src="images/572a3612dd089581158b46e5.webp" style="width: 10cm;"/> <br />
+      <label>Archers</label>
+      <input type="radio" name="damage" /><br>
+      <label>mini pekka</label>
+      <input type="radio" name="damage"/>
+      <input type="Submit" value="Submit" />
+    </form>
+    <br><br><br>
+    
+    </fieldset>
+  </body>
+  <footer>
+    <p>© 2024 Clash Royale Fan Page</p>
+  </footer>
+</html>
