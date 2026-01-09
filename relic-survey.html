@@ -24,7 +24,7 @@
     -->
     <form>
       <fieldset>
-        <legend>Which of these relics are the Idol of Yun'shul?</legend>
+        <legend>Which of these <i>relics</i> are the Idol of Yun'shul?</legend>
         <input type="radio" id="sinner-ash" name="relic-pic" />
         <label for="">
           <img src="images/Sinner-Ash.webp" width="150px" height="100px" />
@@ -41,6 +41,23 @@
         /></label>
         <br />
       </fieldset>
+      <br />
+      <fieldset>
+        <legend>Things Players Can Do With the Idol of Yun'Shul</legend>
+        <!-- Create a table where the headings are Question and Answer -->
+        <label for="idol-depths">
+          What does the Idol of Yun'Shul automatically allow you to escape?
+        </label>
+        <input type="text" id="idol-depths" name="traitOne" />
+        <br />
+        <label for="">What does the Idol of Yun'Shul relieve you of?</label>
+        <input type="text" id="idol-flaw" name="traitTwo" />
+        <br />
+        <input type="text" id="1" name="Relic-text" />
+        <label for="">Hint "resconance"</label>
+        <br />
+      </fieldset>
+      <button type="submit">Submit</button>
     </form>
   </body>
 </html>
