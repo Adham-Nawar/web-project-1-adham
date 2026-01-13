@@ -23,14 +23,10 @@
       This is a form about the relics that we talked about in this website. 
     -->
     <form>
-      <!-- This fieldset is about identifying the Idol of Yun'shul -->
       <fieldset>
-        <!-- The <legend> tag is what contains the title of the fieldset -->
         <legend>Which of these <i>relics</i> are the Idol of Yun'shul?</legend>
-        <!-- The <input> tag is what allows me to use a radio button for each relic. -->
         <input type="radio" id="sinner-ash" name="relic-pic" />
         <label for="">
-          <!-- The <img> tag is what contains the image of the relic that i used inside the label tag -->
           <img src="images/Sinner-Ash.webp" width="150px" height="100px" />
         </label>
         <br />
@@ -46,35 +42,19 @@
         <br />
       </fieldset>
       <br />
-      <!-- This fieldset is about the abilities granted by the Idol of Yun'shul -->
       <fieldset>
-        <!-- The <legend> tag is what contains the title of the fieldset -->
         <legend>Things Players Can Do With the Idol of Yun'Shul</legend>
-        <!-- The <label> tag is what contains the text for the user to see -->
+        <!-- Create a table where the headings are Question and Answer -->
         <label for="idol-depths">
           What does the Idol of Yun'Shul automatically allow you to escape?
         </label>
-        <!-- The <input> tag is what allows the user to enter text -->
         <input type="text" id="idol-depths" name="traitOne" />
         <br />
         <label for="">What does the Idol of Yun'Shul relieve you of?</label>
         <input type="text" id="idol-flaw" name="traitTwo" />
         <br />
+        <input type="text" id="1" name="traitThree" />
         <label for="">What does the Idol of Yun'shul reroll?</label>
-        <input type="text" id="idol-reroll" name="traitThree" />
-        <br />
-      </fieldset>
-      <br />
-      <fieldset>
-        <legend>How many Idols are worth 1 sinner-ash</legend>
-        <input type="checkbox" id="2-Idols" name="Idols=2" />
-        <label for="2-Idols"> 2 Idols of Yun'shul </label>
-        <br />
-        <input type="checkbox" id="4-Idols" name="Idols=4" />
-        <label for="4-Idols">4 Idols of Yun'shul</label>
-        <br />
-        <input type="checkbox" id="6-Idols" name="Idols=6" />
-        <label for="6-Idols">6 Idols of Yun'shul</label>
         <br />
       </fieldset>
       <button type="submit">Submit</button>
